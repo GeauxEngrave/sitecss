@@ -9,12 +9,11 @@
   width: 200px; /* Set the desired width */
   height: 80px; /* Increased height */
   background-image: url("https://lh3.googleusercontent.com/d/1NHsW-LAAxPuCfLKhzDkVJdvJZJoa4bso"); /* Same background image */
-  background-size: cover; /* Ensures the image covers the button */
+  background-size: contain; /* Ensure the entire image fits within the button */
   background-repeat: no-repeat; /* Prevents the background image from repeating */
   background-position: center; /* Centers the background image */
   transition: transform 0.3s ease;
   transform-origin: center;
-  padding: 10px; /* Add padding to increase space around the button */
 }
 
 .custom-button:hover {
