@@ -4,17 +4,16 @@
   }
   .custom-button {
     display: inline-block;
+    width: 200px;
+    height: 60px;
+    background-image: url("https://lh3.googleusercontent.com/d/1NHsW-LAAxPuCfLKhzDkVJdvJZJoa4bso");
+    background-size: cover;
     transition: transform 0.3s ease;
     transform-origin: center;
   }
   .custom-button:hover {
-    transform: scale(1.3); /* Expand to 130% size */
+    transform: scale(1.3);
   }
   a {
     text-decoration: none;
   }
-  .custom-button img {
-    width: 100%;
-    height: auto;
-  }
-
