@@ -1,17 +1,20 @@
 .button-container {
   display: flex;
   justify-content: center;
+  margin-bottom: 20px; /* Optional: adds space between button containers */
 }
 
 .custom-button {
   display: inline-block;
   width: 200px; /* Set the desired width */
-  height: 80px; /* Set the desired height */
-  background-image: url("https://lh3.googleusercontent.com/d/1NHsW-LAAxPuCfLKhzDkVJdvJZJoa4bso");
+  height: 80px; /* Increased height */
+  background-image: url("https://lh3.googleusercontent.com/d/1NHsW-LAAxPuCfLKhzDkVJdvJZJoa4bso"); /* Same background image */
   background-size: cover; /* Ensures the image covers the button */
   background-repeat: no-repeat; /* Prevents the background image from repeating */
+  background-position: center; /* Centers the background image */
   transition: transform 0.3s ease;
   transform-origin: center;
+  padding: 10px; /* Add padding to increase space around the button */
 }
 
 .custom-button:hover {
@@ -19,5 +22,5 @@
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none; /* Prevent underline on links */
 }
