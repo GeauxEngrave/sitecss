@@ -6,7 +6,7 @@
 .custom-button {
   display: inline-block;
   width: 200px; /* Set the desired width */
-  height: 60px; /* Set the desired height */
+  height: 80px; /* Set the desired height */
   background-image: url("https://lh3.googleusercontent.com/d/1NHsW-LAAxPuCfLKhzDkVJdvJZJoa4bso");
   background-size: cover; /* Ensures the image covers the button */
   background-repeat: no-repeat; /* Prevents the background image from repeating */
